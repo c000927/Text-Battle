@@ -5,3 +5,6 @@ A text-based adventure game on battlefield.
 - Added pseudocode.py
 - Addded tasks.todo
 - Updated README.md
+
+## Unreleased V0.02
+- Added loop.py
