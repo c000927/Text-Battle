@@ -36,11 +36,13 @@ def game_help():
     print("- - - - - - - - - - - - - - - - -")
     print("- - - - - - Help Menu - - - - - -")
     print("- - - - - - - - - - - - - - - - -")
+    print("-      Type #PLAY# to play      -")
+    print("-     Then #GO# or #ATTACK#     -")
     print("-        Move: TYPE #GO#        -")
-    print("-        East: TYPE #D#      -")
-    print("-        West: TYPE #A#      -")
-    print("-        North: TYPE #W#    -")
-    print("-        South: TYPE #S#    -")
+    print("-        East: TYPE #D#         -")
+    print("-        West: TYPE #A#         -")
+    print("-        North: TYPE #W#        -")
+    print("-        South: TYPE #S#        -")
     print("-        Attack: TYPE #ATTACK#  -")
     print("- - - - - - - - - - - - - - - - -")
     # Call the user input function
@@ -124,7 +126,3 @@ def game_play():
     while selection.lower() not in ["go", "attack", "quit"]:
         print("Invalid input, please try again!")
         game_play()
-
-
-# Call the main title screen function
-title_screen()
