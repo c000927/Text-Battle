@@ -15,3 +15,10 @@ A text-based adventure game on battlefield.
 - Added roles.py
 - Deleted info.py
 - Updated main.py
+
+## Unrealeased V0.03
+- Recreated the game
+- Added enemy.py
+- Added players.py
+- Added newmain.py
+- Updated main.py
